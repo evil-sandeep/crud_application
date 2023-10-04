@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": " crud_application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
+    "test": "crud"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evil-sandeep/crud_application.git"
+  },
+  "keywords": [
+    "crud"
+  ],
+  "author": "Mr.Sandeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evil-sandeep/crud_application/issues"
+  },
+  "homepage": "https://github.com/evil-sandeep/crud_application#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1"
+  }
+}
