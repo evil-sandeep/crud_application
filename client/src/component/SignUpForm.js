@@ -10,7 +10,7 @@ const SignUpForm = () => {
     password: '',
   });
 
-  const [userList, setUserList] = useState([]);
+  const [, setUserList] = useState([]);
 
   useEffect(() => {
     Axios.get('http://localhost:3001/api/get').then((response) => {
@@ -32,7 +32,7 @@ const SignUpForm = () => {
     Axios.post('http://localhost:3001/api/insert', formData)
       .then(() => {
         console.log("Success insert");
-        // Optionally, you can clear the form after submission:
+      
         setFormData({
           firstName: '',
           lastName: '',

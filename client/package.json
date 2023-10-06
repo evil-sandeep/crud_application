@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://evil-sandeep.github.io/crud_application",
+  "homepage": "https://evil-sandeep.github.io/crud_application",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
